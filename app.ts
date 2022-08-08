@@ -7,8 +7,8 @@ import cors from "cors";
 import "dotenv/config";
 
 import { CommonRoutesConfig } from "./common/common.routes.config";
-import { UsersRoutes } from "./users/users.routes.config";
-import { AuthRoutes } from "./Auth/auth.routes.config";
+import { UsersRoutes } from "./src/users/users.routes.config";
+import { AuthRoutes } from "./src/Auth/auth.routes.config";
 import debug from "debug";
 require("./database/db");
 
